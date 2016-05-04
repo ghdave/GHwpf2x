@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GHwpf2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="GH WPF test project 2" Height="350" Width="525" Background="#FFCCF39D">
     <Grid>
-        
+        <Button x:Name="button" Content="Click" HorizontalAlignment="Left" Height="194" Margin="202,42,0,0" VerticalAlignment="Top" Width="72" FontSize="20" ToolTip="Go on click dammit !" Click="button_Click"/>
+
     </Grid>
 </Window>
